@@ -1,4 +1,4 @@
-function isTouching(a, b) {
+function isTouching(a,b) {
 	const aRect = a.getBoundingClientRect();
 	const bRect = b.getBoundingClientRect();
 
