@@ -14,7 +14,7 @@ const avatar = document.querySelector('#player')
 const coin = document.querySelector('#coin')
 const h1Score = document.querySelector('h1')
  let score=0
-window.addEventListener('keyup', function(e){
+window.addEventListener('keydown', function(e){
 	if(e.key=='ArrowDown'){
 
 	
